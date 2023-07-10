@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+height: 850px;
+flex-shrink: 0;           
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    border: 0px;
+}
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.picture-1{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
+.banner-greting{
+    
+}
