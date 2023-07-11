@@ -76,7 +76,7 @@ header{
 }
 main{
     width: 1920px;
-    height: 4867px;
+    height: 3400px;
     margin: 0px auto;
     background: #FFF; 
 }
@@ -217,11 +217,7 @@ width: 594px;
    font-weight: 800;
    line-height: normal;
 }
-footer{
-    width: 1922px;
-    height: 449px;
-    flex-shrink: 0;
-}
+
 .Flower-Shop{
     color: white;
     font-size: 48px;
@@ -230,10 +226,13 @@ footer{
 }
 .background-color{
     background: #111010;
-    width: 1922px;
-    height: 449px;
     justify-content: center;
     display: flex;
+}
+footer{
+    width: 1440px;
+    height: 449px;
+    margin: auto;
 }
 .flower-color{
     color: #E55473;
@@ -251,21 +250,15 @@ footer{
     font-style: italic;
     font-weight: 400;
     line-height: 30px;
-
-
 }
 .footer-container{
     background: #111010;
     text-align: center;
-    width: 1922px;
-    height: 449px;
     font-family: Lato;
     font-size: 40px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
     padding: 50px;
-    margin-bottom: 0px;
     margin-bottom: 20px;
 }
 .reserved-p{
