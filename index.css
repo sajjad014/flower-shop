@@ -7,9 +7,10 @@ body{
 }
 header{
     background: rgba(229, 84, 115, 0.10);
-    width: 1920px;
-height: 850px;
-flex-shrink: 0;           
+    width: 1925px;
+    height: 830px;
+    flex-shrink: 0;  
+    background-repeat: no-repeat;         
 }
 .btn-primary{
     border-radius: 8px;
@@ -22,15 +23,259 @@ flex-shrink: 0;
     border: 0px;
 }
 .banner{
-padding: 30px 30px 30px 150px;
-display: flex;
-align-items: center;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    align-items: center;
 }
 .picture-1{
     width: 635px;
-height: 800px;
-flex-shrink: 0;
+    height: 800px;
+    flex-shrink: 0;
+    background-position: bottom;
 }
 .banner-greting{
-    
+
 }
+.banner-tittle{
+    margin-bottom: 5px;
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    color: #272727;
+}
+
+.section-tittle{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
+.section{
+    padding: 130px;
+}
+main{
+    width: 1920px;
+    height: 4867px;
+    margin: 0px auto;
+    background: #FFF; 
+}
+.about-info{
+    align-items: center;
+    gap: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+.picture-2{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.picture-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    flex-shrink: 0;
+}
+.picture-4{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+}
+.pic-2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.service{
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    margin-left: 240px 240px ;
+    background: center  rgba(39, 39, 39, 0.05) ;
+    padding: 30px 30px 0px 240px;
+}
+.img-1{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+.pngwing{
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-off{
+    color:#E55473
+}
+.pngwing-tittle{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+}
+.pngwing-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px;
+width: 594px;
+}
+.pngwing-img{
+    width: 318px;
+    height: 420px;
+}
+.Rectangle{
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.latest-deal{
+    background-image: url("image/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.input-email{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+}
+.deal-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.deal-h2{
+   color: #272727;
+   text-align: center;
+   font-family: Lato;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+footer{
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+}
+.Flower-Shop{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.background-color{
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    justify-content: center;
+    display: flex;
+}
+.flower-color{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.flower-p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+
+
+}
+.footer-container{
+    background: #111010;
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 50px;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+.reserved-p{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+
