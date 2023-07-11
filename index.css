@@ -2,6 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+.logo-1{
+    color: #E55473;
+}
+.logo{
+    color: white;
+    background-color: #834d4d;
+    margin: auto;
+    padding: 0%;
+    justify-content: center;
+}
 body{
     font-family: 'Lato', sans-serif;
 }
